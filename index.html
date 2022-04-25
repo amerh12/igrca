@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta charset="UTF-8">
+    <title>MATURITETNI IZDELEK</title>
+</head>
+
+<div id="dannoc"></div>
+
+
+<body>
+    <h1 class="naslov">KAMEN, PAPIR, ŠKARJE</h1>
+
+    <div id="form">
+
+
+        <p>Vpiši svoje ime:</p>
+        <input type="text" placeholder="Ime igralca" maxlength="10" minlenght="4">
+        <p>Izberi način:</p>
+
+        <button id="day">Dnevni način</button>
+        <button id="night">Nočni način</button>
+
+        <button type="submit" id="btnZctk"> Začni igro</button>
+
+    </div>
+
+    <div id="stats">
+
+        <h2 id="imeIgralca">Ti</h2>
+        <h2 id="RezultatIgralca">0</h2>
+        <h2 id="dvopicje">:</h2>
+        <h2 id="RezultatRacunalnika">0</h2>
+        <h2 id="imeRac">Računalnik</h2>
+
+
+    </div>
+
+
+
+
+
+    <section class="choose">
+
+
+
+
+        <h3 class="navodila">IZBERI SVOJE OROŽJE IN ZAČNI IGRO!</h3>
+
+
+        <img src="kamen.png" id="kamen">
+        <img src="papir.png" id="papir">
+        <img src="skarje.png" id="skarje">
+
+
+    </section>
+
+
+    <section class="ravnilo">
+        <div id="prviDiv">
+            <h2>VI STE IZBRALI:</h2>
+            <div id="tvojaIzbira"></div>
+        </div>
+        <div id="drugDiv">
+            <h2 id="racIzbr">RAČUNALNIK JE IZBRAL:</h2>
+            <div id="racIzbira"></div>
+        </div>
+
+
+
+
+
+    </section>
+    <section class="winner">
+
+        <h1 class="resultat">BRAVOOO! ZMAGAL SI!</h1>
+
+        <button id="keepPlayin"> Nadaljuj igro </button>
+        <button id="endGame"> Končaj Igro </button>
+
+    </section>
+
+
+    <section id="koncKoncou">
+        <h1 id="kvajblo"> KONEC IGRE</h1>
+        <h3 id="citat"> "If bad luck knows who you are, become someone else." <br /><br /> -Jandy Nelson </h3>
+
+        <button id="endGameDva">Igraj ponovno </button>
+    </section>
+
+
+</body>
+<script src="main.js"></script>
+
+</html>
