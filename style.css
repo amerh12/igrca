@@ -1,0 +1,483 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    color: white;
+
+    background: #131a2d;
+    background-image: url(moonBackgroundTri.png);
+    background-repeat: no-repeat;
+    background-position: right-top;
+    background-size: 450px;
+
+}
+
+img {
+    cursor: pointer;
+}
+
+.naslov {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+
+.navodila {
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    width: 90%;
+    text-align: center;
+    font-size: 20px;
+    color: lightgray;
+}
+
+
+
+.choose {
+    display: none;
+}
+
+p {
+    width: 90%;
+    height: 68px;
+    margin: 10% 0% 0% 5%;
+    font-size: 23px;
+    color: white;
+}
+
+input {
+    width: 88%;
+    height: 5.5vh;
+    margin: 0% 5%;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    background: #131a2d;
+    border: 2px solid white;
+}
+
+button {
+    border: none;
+    width: 40%;
+    height: 5.5vh;
+    margin: 0% 0% 0% 5%;
+    font-size: 20px;
+
+
+}
+
+#night {
+    background: black;
+    border: none;
+    color: white;
+    border: 2px solid white;
+}
+
+#day {
+    background: white;
+    border: none;
+    color: #131a2d;
+    border: 2px solid black;
+}
+
+#btnZctk {
+    width: 42%;
+    text-align: center;
+    margin: 9% 30%;
+    border: none;
+    height: 5.5vh;
+    font-size: 20px;
+}
+
+#stats {
+    color: white;
+    display: none;
+    width: 80%;
+    border: 1px solid white;
+    margin-left: 10%;
+    padding: 2% 0%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+#imeIgralca {
+    text-align: right;
+    width: 35%;
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 0%;
+    margin-right: 2%;
+}
+
+#RezultatIgralca {
+    text-align: center;
+    width: 4%;
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 0%;
+}
+
+.resultat {
+    font-size: 25px;
+    margin-bottom: 5%;
+
+}
+
+
+#dvopicje {
+    text-align: center;
+    width: 1%;
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 0%;
+}
+
+#imeRac {
+    text-align: left;
+    width: 43%;
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 2%;
+
+}
+
+#RezultatRacunalnika {
+    text-align: center;
+    width: 4%;
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 0%;
+}
+
+
+
+#kamen {
+    margin-left: 13%;
+    width: 33%;
+    margin-right: 6%;
+}
+
+#papir {
+    margin-right: 13%;
+    width: 33%;
+
+}
+
+#skarje {
+    margin-left: 33%;
+    width: 33%;
+
+}
+
+.ravnilo {
+    display: none;
+    width: 90%;
+    margin-left: 0%;
+    margin-bottom: 1%;
+}
+
+#prviDiv {
+    margin-left: 10%;
+    width: 40%;
+    display: inline-block;
+    text-align: center;
+    height: 35vh;
+
+
+}
+
+#prviDiv h2 {
+    font-size: 22px;
+
+}
+
+#drugDiv h2 {
+    font-size: 2px;
+
+}
+
+
+#tvojaIzbira {
+    background-position: center;
+    background-image: url(papir.png);
+    background-repeat: no-repeat;
+    height: 30vh;
+    background-size: 80%
+}
+
+
+#drugDiv {
+    height: 35vh;
+    text-align: center;
+    margin-left: 7%;
+    display: inline-block;
+    width: 40%;
+}
+
+#drugDiv h2 {
+    font-size: 22px;
+}
+
+
+#racIzbira {
+    height: 30vh;
+    background-image: url(skarje.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+
+.winner {
+    display: none;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: auto;
+}
+
+.win {
+    background-image: url(kamen.png);
+}
+
+#zmagovalec {
+    display: none;
+    background-image: url(kamen.png);
+}
+
+#koncKoncou {
+    display: none;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+
+#kvajblo {
+    margin: 7% 0%;
+}
+
+#citat {
+    margin: 7% 0%;
+
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-size: 750px;
+
+    }
+
+
+    input {
+        width: 88%;
+        height: 10vh;
+        margin: 3% 5%;
+        font-size: 45px;
+        text-align: center;
+        border: 2px solid white;
+    }
+
+    button {
+        border: none;
+        width: 40%;
+        height: 10vh;
+        margin: 2% 2% 2% 6%;
+        font-size: 35px;
+
+
+    }
+
+    #kamen {
+        margin-left: 32%;
+        width: 15%;
+        margin-right: 6%;
+    }
+
+    #papir {
+        margin-right: 13%;
+        width: 15%;
+
+    }
+
+    #skarje {
+        margin-left: 42.5%;
+        width: 15%;
+
+    }
+
+
+
+    #imeIgralca {
+        text-align: right;
+        width: 35%;
+        display: inline-block;
+        font-size: 35px;
+        margin-left: 0%;
+        margin-right: 2%;
+    }
+
+    #RezultatIgralca {
+        text-align: center;
+        width: 4%;
+        display: inline-block;
+        font-size: 35px;
+        margin-left: 0%;
+    }
+
+    .resultat {
+        font-size: 35px;
+        margin-bottom: 5%;
+
+    }
+
+
+    #dvopicje {
+        text-align: center;
+        width: 1%;
+        display: inline-block;
+        font-size: 35px;
+        margin-left: 0%;
+    }
+
+    #imeRac {
+        text-align: left;
+        width: 43%;
+        display: inline-block;
+        font-size: 35px;
+        margin-left: 2%;
+
+    }
+
+    #RezultatRacunalnika {
+        text-align: center;
+        width: 4%;
+        display: inline-block;
+        font-size: 35px;
+        margin-left: 0%;
+    }
+
+
+
+
+}
+
+@media screen and (min-width: 868px) {
+    input {
+        width: 50%;
+        height: 7vh;
+        font-size: 25px;
+        margin: 0%;
+    }
+
+    #form {
+        width: 90%;
+        text-align: center;
+        margin: auto;
+        padding: auto;
+    }
+
+    p {
+        width: 100%;
+        text-align: center;
+        margin: 2% 0% 0% 0%;
+    }
+
+    .naslov {
+        margin-top: 3%;
+    }
+
+    button {
+        font-size: 25px;
+        height: 6vh;
+        width: 20%;
+        margin: 0% 0% 0% 0%;
+
+    }
+
+    #day {
+        border: 2px black solid;
+
+    }
+
+    #btnZctk {
+        width: 20%;
+        margin: 5% 30%;
+    }
+
+    .choose {
+        margin: 0% 0%;
+    }
+
+    .navodila {
+        font-size: 25px;
+        margin: 0% 0% 2% 0%;
+    }
+
+    #kamen {
+        margin-left: 32%;
+        width: 15%;
+        margin-right: 6%;
+    }
+
+    #papir {
+        margin-right: 13%;
+        width: 15%;
+
+    }
+
+    #skarje {
+        margin-left: 42.5%;
+        width: 15%;
+
+    }
+
+    #stats {
+        margin-top: 2%;
+        margin-bottom: 3%;
+    }
+
+    #prviDiv h2 {
+        font-size: 27px;
+
+    }
+
+
+    #tvojaIzbira {
+        background-position: center;
+        background-image: url(papir.png);
+        background-repeat: no-repeat;
+        height: 39vh;
+        background-size: 45%;
+    }
+
+    #racIzbira {
+        height: 39vh;
+        background-image: url(skarje.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 45%;
+    }
+
+
+
+    #keepPlayin {
+        width: 12%;
+        margin: 0% 0% 0% 0%;
+        font-size: 18px;
+    }
+
+    #endGame {
+        width: 12%;
+        margin: 0% 0% 0% 3%;
+        font-size: 18px;
+
+
+    }
+
+}
