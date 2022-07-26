@@ -423,6 +423,20 @@ button {
 
 }
 
+.pravilaNaslov{
+    height: 1vh;
+    margin: 0%;
+    font-size: 22px;
+    text-align: center;
+}
+
+.pravilaOpis{
+    margin: 3% 0% 2% 0%;
+    color: black;
+    font-size: 22px;
+    
+}
+
 @media screen and (min-width: 868px) {
     input {
         width: 50%;
