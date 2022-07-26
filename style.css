@@ -418,11 +418,6 @@ button {
         margin-left: 0%;
     }
 
-
-
-
-}
-
 .pravilaNaslov{
     height: 1vh;
     margin: 0%;
@@ -431,10 +426,13 @@ button {
 }
 
 .pravilaOpis{
-    margin: 3% 0% 2% 0%;
+    margin: 3% 0% 0% 0%;
     color: black;
     font-size: 22px;
     
+}
+
+
 }
 
 @media screen and (min-width: 868px) {
